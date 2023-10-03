@@ -1,361 +1,385 @@
-#sec1{
-    background-image: url(bg-img1.jpg);
-    animation-name: anim;
-  animation-duration: 4s;
-    background-size:cover ;
+.sec{
+    background-color: dimgray;
+ 
+    background-image: url(bg\ img1.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position:center;
 }
-@keyframes anim {
-    from {background-image: url(mint.jpg);}
-    to {background-image: url(bg-img1.jpg);}
-  }
-.sec-box1{
+.inboxA{
+
+}
+.img1{
+   background-color: white;
 
 
-    /* height: 300px; */
 }
-
-.buttons{
- text-align: center;
- padding-right: 15px;
+.home{
+    color: white;
+    padding: 15px;
 }
-.nav-item{
-   
-    padding-right: 50px;
+.inbox1{
+    margin: 15px;
+    /* height: 150px; */
 }
-#mynavbar{
-    padding-right: 50px;
+.inbox2{
+    margin-top: 30px;
+    font-size: medium;
+    /* height: 165px; */
 }
 .h1{
-    text-align: center;
-    font-size: 60px;
-   /* padding-bottom: 150px; */
-
-    
-}
-.head{
-    text-align: center;
     color: white;
-    font-size: 60px;
-    /* padding-bottom: 200px; */
 }
-.text{
-  
- /* margin-top: 100px; */
- padding-bottom: 200px
- 
+.para1{
+    color: white;
+}
+.Reg{
+ border: 1px solid white;
+
+ border-radius: 20px;
+ padding: 5px 9px ;
+
 
 }
-.see{
-    font-size: 20px;
-    color: white;
-    text-align: center;
+.Reg:hover{
+    color:#e7ebe8;
+    transition: 1s;
+    text-decoration: none;
+}
+.navbar-nav{
+    padding-left: 50px;
+
 
 }
-.sign-box{
-    padding-right: 50px;
-    text-align: center;
+
+.box1{
+    background-color: rgb(20, 50, 106);
+    animation-name: example;
+    animation-duration: all 1s;
+   margin-top: 15px;
+
+    opacity: 0.5;
+    padding-left: 25px;
+    margin: 0px;
+
 }
-.sign-btn{
-    color: white;
-    background-color: chocolate;
-    text-align: center;
-    padding: 6px 45px;
-   
+.box1:hover{
+    background-color: rgb(27, 66, 138);
+    opacity: 1;
+    transition: 1s;
+
 }
-.sign-btn:hover{
-    background-color: orange;
-    transition: all 0.5s;
+.box2{
+    background-color: rgb(237, 238, 241);
+    margin-top: 15px;
+    margin: 0px;
+    opacity: 0.5;
+
 }
-.sec-2{
-  
-    /* background-color: rgb(209, 88, 88); */
+.box2:hover{
+    background-color: rgb(237, 238, 241);
+    opacity: 0.8; 
+    transition: 1s; 
 }
-.h4{
-text-align: center;
-margin-top: 50px;
+
+.threebox{
+ margin-top: 15px;
 }
-.bills{
-    margin: 10px;
-    text-align: center
-}
-.sec-3{
-   
-    /* height: 500px; */
-}
-.personal{
-    margin-top: 150px;
-    font-size:35px;
-}
-.sec3-img{
-    margin-top: 100px;
-    
-    
-}
-.Bills-box{
-    min-height: 120px; 
-    /* background-color: aqua; */
+
+.inbox3{
+  margin-top: 100px;
+  padding-left: 15px;
 }
 .icon1{
-    font-size: 20px;
-    padding-right: 20px;
-    
+    color: white;
+   padding-left: 120px;
+   padding-top: 10px;
+   font-size: 40px;
 }
-.list{
-    font-size: 20px;
+.icon1:hover{
+    color: #5fcf80;
+    transition: 1s;
+}
+.h2{
+    color: white;
+    font-size: 15px;
+    padding-left: 45px;
 
+}
+.para2{
+    color: white;
+    font-size: small;
+    padding: 5px;
+    padding-left: 20px ;
+
+}
+.icon2{
+    color:grey;
+   padding-left: 120px;
+   padding-top: 10px;
+   font-size: 40px;
+}
+.icon2:hover{
+    color: #5fcf80;
+    transition: 1s;
+}
+
+.para3{
+    color: rgb(12, 12, 12);
+    font-size: small;
+    padding: 5px;
+    padding-left: 40px ;
+
+}
+.h3{
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    padding-left: 85px;
+
+}
+
+.sec2{
+    background-color: rgb(237, 231, 231);
    
-    
 }
-.box-personal{
-    
-    /* background-color: brown; */
+.h4{
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+   padding: 0px 15px;
 }
-.box-personal2{
-    
-    /* background-color: brown; */
-    padding-top: 70px;
+.para4{
+font-size: small;
+padding: 10px;
 }
-ul{
-    padding: 0px;
-    margin: 0px;
+.icon3{
+    font-size: 21px;
+    color: grey;
+    padding: 50px;
 }
-.signfree{
-    font-size: 24px;
-    text-decoration: none;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
+.icon3:hover{
+    color: #5fcf80;
+    transition: 1s;
 }
-.signup{
+.para5{
+    font-size: small;
+  padding: 25px;
+  padding-top: 15px;
+}
+.inbox4{
+    padding-left: 70px;
+}
+.inbox5{
+    margin-top: 15px;
+    padding-left: 70px;
+}
+.sec-2{
+    background-color:whitesmoke ;
+}
+.inbox6{
     margin-top: 35px;
    
 }
-.box-get{
-    /* height: 400px; */
-    padding-top: 50px;
-    margin: 150px;
+.inboxB{
+   
 }
-.sec-4{
- background-image: url(smartphn.jpg);
- animation-name: example;
- /* animation-duration: 4s; */
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
-}
-
-/* @keyframes example {
-    from {background-image: url(smartphn.jpg);}
-    to {background-image: url(laptop-png.png);}
-  } */
-ul{
-    padding: 0px;
-    margin: 0px;
-}
-.box-get{
-    /* background-color: brown; */
-    /* height: 300px; */
-     /* padding-left: 50px; */
-}
-.list1{
-    padding: 10px;
-    font-size: 19px;
-
-}
-.Intutive{
-    text-align: center;
-    margin-top: 80px;
-
-}
-
-
-
-.sec-5{
-  background-color: rgb(95, 147, 135); 
-  margin-top: 50px;
-
-}
-.img-box{
-    margin: 150px;
-}
-.img{
-    text-align: center;
-}
-.img-head{
-    margin-top: 20px;
-}
-.mint-box{
-    text-align: center;
-
- 
-}
-.mint-img{
-    margin-top: -50px;
-}
-.see{
-margin-top: 80px;
-}
-.see-para{
+.col{
     margin-top: 15px;
 }
-.news-box{
-    text-align: center;
 
   
-
-}
-.news-btn{
-    margin: 20px;
-    margin-bottom: 100px;
-    
-    background-color: rgb(95, 147, 135); 
-   padding: 13px;
-   border: solid 1px white;
+.sec3{
+    background-color:white;
    
-}
-.news{
-    text-decoration: none;
-    color: white;
-
-}
-.news:hover{
-    text-decoration: none;
-    color:#4cd5ac;
-}
-.signup{
-    text-align: center;
-}
-.create-box{
-    margin-top: 20px;
-    text-align: center;
+ }
+ .sec4{
+     background-color: whitesmoke;
     
-}
-.create-btn{
-    background-color: rgb(243, 116, 12);
-    border: 1px solid white;
-    padding: 8px 40px;
-    color: white;
-}
-.create{
-   
+ }
+
+ .inbox7{
+    margin-top: 80px;
+
+ }
+ .inbox8{
+     margin-top: 120px;
+
+ }
+ .para6{
+     padding:2px;
+
+ }
+ .h7{
+     font-size: 25px;
+     color: rgb(68, 158, 193);
+ }
+ .inbox9{
+     margin-top: 10px;
+
+ }
+ .inbox10{
+     margin-top: 80px;
+     border: 1px solid lightgrey;
+     padding: 15px;
+
+ }
+ .in-box3{
+    margin-top: 90px;
+ }
+ .click{
+     background-color: #5fcf80;
+     border-radius: 15px;
+     padding: 5px 30px;
+     color: white;
+     text-decoration: none;
+ }
+ .click:hover{
     text-decoration: none;
+    color:#054f1b;
+ }
+ .inbox11{
 
-}
-.create-btn:hover{
-    background-color: orange;
-    border: 1px solid white;
-    padding: 8px 40px;
-    color: white;
-    transition: all 0.5sS;
-}
-.login-btn{
-    background-color: white;
-    border: 1px solid gray;
-    padding: 8px 40px;
-    margin: 8px;
-    color:black;
-}
-.login{
-  color: gray;
-    text-decoration: none;
-
-}
-.login:hover{
-    color: #4cd5ac;
-    text-decoration: none;
-}
-.signup-box{
-    margin: 100px;
-}
-.sec-6{
-    background-color: black;
-    padding: 20px;
-}
-.download-head{
-    margin-top:100px;
-    text-align: center;
-}
-.avail{
-    border: 1px solid white;
-    padding: 25px 15px;
-    margin: 10px;
-
-}
-
-
-.avail-box{
-    margin-top: 50px;
-    text-align: center;
-padding: 0px 60px;
-}
-.download-box{
-    margin: 120px;
-}
-.hr{
-    background-color: rgb(63, 65, 67);
-}
-.in{
-    text-align: center;
-    margin-top: 50px;
-}
-.logo-box{
-    height: 100px;
-}
-.vl {
-    border-left: 1px solid white;
-    height: 15px;
+    margin-top:15px ;
+    padding-left: 80px;
     
- 
-  }
- 
+ }
+ .sec5{
+     background-image: url(img7.jpg);
+     margin-top: 20px;
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center ;
+ }
+ .head{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 0rem;
 
+
+ }
+
+ .head::before, .head::after{
+ content: "";
+ height: 1.5px;
+ background-color: rgb(217, 209, 209);
+ display: block;
+ padding-right: 5px;
+ opacity: 0.5;
+ column-gap: 10vmin;
+
+
+ }
+
+ .h1{
+ font-size: 20px;
+
+ }
+ .inbox12{
+     text-align: center;
+     margin: 20px;
+
+
+ }
+ .h5{
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 30px;
+     opacity: 0.9;
+ }
+ .read{
+     background-color: rgb(51, 51, 249);
+     padding: 5px 40px;
+     border-radius: 15px;
+     color: white;
+     text-decoration: none;
+ }
+ .read:hover{
+     color:#5fcf80;
+     text-decoration: none;
+     transition: 1s;
+ }
+ .sec7{
+     background-color: whitesmok
+
+ }
+ .inbox13{
+     margin-top: 40px;
+ }
+ .inbox14{
+    margin-top: 135px;
+
+ }
+ .inbox15{
+     margin-top: 15px;
+     margin: 15px;
+     background-image: url(img8.jpg);
+     height: 500px;
+     background-position: center;
+     background-size:700px;
+     background-repeat: no-repeat;
+
+ }
+ .sec8{
+     background-image: url(img9.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+    
+     background-size: cover;
+ }
+ .box3{
+     background-color: rgb(22, 22, 229);
    
+     width: 200px;
+    padding: 8px;
+     text-align: center;
+ }
+ .h6{
+     color: white;
+
+
+ }
+ .icon4{
+     border: 1px solid white;
+     padding: 4px 6px;
+     border-radius: 50%;
+     margin-top: 5px;
+     color: white;
+     font-size: 15px;
+ }
+ .icon4:hover{
+     color: #5fcf80;
+ }
+ .sec10{
+     background-color: white;
+
+ }
+ .para9{
+     font-size: 15px;
+ }
+ .inbox16{
+     margin-top: 30px;
+     padding-left: 15px;
+
+ }
+ .sec11{
+     background-color: whitesmoke;
+
+ }
+ .sec12{
+     background-color:rgb(209, 204, 204) ;
   
-  .vl-box{
-text-align: center;
-font-size: 25px;
-
-
-
+ }
+ .sec13{
+     background-color: hsl(0, 3%, 94%);
    
-  }
-.icon-logo{
-    color:rgb(38, 132, 186);
-    padding: 25px;
-}
-.support{
-    font-size: 15px;
-    color: white;
-    padding:0px 20px;
-}
-.security{
-    font-size: 15px;
-    color: white;
-    padding:0px 15px;
-}
-@media(max-width:1200px){
-    .avail img{
+ }
+ .inbox17{
+     text-align: center;
+     font-size: 15px;
+     margin-top: 40px;
 
-        width:150px;
-    }
-    .avail img.amz{
-    
-        width:130px;
-    }
-    .img-box {
-        margin: 0px;
-    }
-    .box-get {
-        padding-bottom: 50px;
-        margin: 0px; 
-    }
-    .signup-box {
-        margin: 0px;
-    }
-    .download-box {
-        margin: 0px;
-    }
-}
+ }
+ .para8{
+     font-size: 15px;
+
+ }
